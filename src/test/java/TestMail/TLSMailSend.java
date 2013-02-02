@@ -22,10 +22,10 @@ import java.util.Properties;
  * To change this template use File | Settings | File Templates.
  */
 public class TLSMailSend extends TestCase{
-    private static final String SMTP_HOST_NAME = "smtp.sgcc.com.cn";
+    private static final String SMTP_HOST_NAME = "smtp.*.com.cn";
     private static final int SMTP_HOST_PORT = 25;
-    private static final String SMTP_AUTH_USER = "oipms@sgid.sgcc.com.cn";
-    private static final String SMTP_AUTH_PWD = "Sgid@123";
+    private static final String SMTP_AUTH_USER = "**@**.com.cn";
+    private static final String SMTP_AUTH_PWD = "****";
 
     /**
      * 这个是根据国家电网某项目来调整的测试用例
